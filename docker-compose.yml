@@ -23,7 +23,7 @@ services:
 
   niffler-auth:
     container_name: niffler-auth
-    image: dtuchs/niffler-auth:latest
+    image: vladimir9/niffler-auth:latest
     ports:
       - "9000:9000"
     healthcheck:
@@ -41,7 +41,7 @@ services:
 
   niffler-currency:
     container_name: niffler-currency
-    image: dtuchs/niffler-currency:latest
+    image: vladimir9/niffler-currency:latest
     expose:
       - "8091"
       - "8092"
@@ -55,7 +55,7 @@ services:
 
   niffler-gateway:
     container_name: niffler-gateway
-    image: dtuchs/niffler-gateway:latest
+    image: vladimir9/niffler-gateway:latest
     ports:
       - "8090:8090"
     healthcheck:
@@ -72,7 +72,7 @@ services:
 
   niffler-spend:
     container_name: niffler-spend
-    image: dtuchs/niffler-spend:latest
+    image: vladimir9/niffler-spend:latest
     expose:
       - "8093"
     restart: always
@@ -85,7 +85,7 @@ services:
 
   niffler-userdata:
     container_name: niffler-userdata
-    image: dtuchs/niffler-userdata:latest
+    image: vladimir9/niffler-userdata:latest
     expose:
       - "8089"
     restart: always
@@ -98,7 +98,7 @@ services:
 
   niffler-frontend:
     container_name: niffler-frontend
-    image: dtuchs/niffler-frontend:latest
+    image: vladimir9/niffler-frontend:latest
     ports:
       - "80:80"
     restart: always

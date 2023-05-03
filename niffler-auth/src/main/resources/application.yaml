@@ -49,7 +49,7 @@ spring:
     activate:
       on-profile: 'local'
   datasource:
-    url: 'jdbc:postgresql://localhost:5432/niffler-auth'
+    url: 'jdbc:postgresql://127.0.0.1:5432/niffler-auth'
   jpa:
     hibernate:
       ddl-auto: validate

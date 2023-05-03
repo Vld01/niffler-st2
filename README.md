@@ -225,7 +225,7 @@ Niffler при запуске в докере будет работать для
 
 Допустим, что ваш username на https://hub.docker.com - *foobazz*
 
-#### 2. заменить в проекте все имена image dtuchs/niffler на foobazz/niffler
+#### 2. заменить в проекте все имена image vladimir9/niffler на foobazz/niffler
 
 - где foobazz - ваш юзернэйм на https://hub.docker.com/
 
